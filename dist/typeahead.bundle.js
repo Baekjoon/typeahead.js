@@ -1,7 +1,7 @@
 /*!
  * typeahead.js 0.10.5
  * https://github.com/twitter/typeahead.js
- * Copyright 2013-2014 Twitter, Inc. and other contributors; Licensed MIT
+ * Copyright 2013-2015 Twitter, Inc. and other contributors; Licensed MIT
  */
 
 (function($) {
@@ -737,8 +737,7 @@
         "use strict";
         var css = {
             wrapper: {
-                position: "relative",
-                display: "inline-block"
+                position: "relative"
             },
             hint: {
                 position: "absolute",
@@ -761,7 +760,7 @@
                 position: "absolute",
                 top: "100%",
                 left: "0",
-                zIndex: "100",
+                zIndex: "10000",
                 display: "none"
             },
             suggestions: {
